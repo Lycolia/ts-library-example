@@ -20,6 +20,10 @@
     "test": "jest --watch",
     "coverage": "jest --coverage"
   },
+  "workspaces": [
+    "packages/library",
+    "packages/main"
+  ],
   "devDependencies": {
     "@lycolia/eslint-config": "^0.9.1",
     "@swc/cli": "^0.1.62",
