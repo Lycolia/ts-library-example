@@ -1,0 +1,21 @@
+{
+  "name": "@lycolia/library-example-single",
+  "version": "0.1.0",
+  "description": "library example",
+  "author": "Lycolia",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "eslint . && npm run headless-test && npm run build-ts",
+    "build-ts": "rm -Rf dist/ && tsc --project tsconfig-build.json",
+    "fix": "eslint --fix . && prettier --write .",
+    "test": "jest --watch --silent",
+    "coverage": "jest --coverage",
+    "headless-test": "jest --colors"
+  }
+}

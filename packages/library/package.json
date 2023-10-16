@@ -1,0 +1,20 @@
+{
+  "name": "@lycllia/library-example",
+  "version": "0.1.0",
+  "description": "library example",
+  "author": "Lycolia",
+  "license": "MIT",
+  "scripts": {
+    "type-check": "tsc --noEmit && eslint .",
+    "build": "npm run build-single && npm run build-multi",
+    "build-single": "npm -w packages/single run build",
+    "build-multi": "npm -w packages/multi run build"
+  },
+  "workspaces": [
+    "packages/single",
+    "packages/multi"
+  ],
+  "devDependencies": {
+    "ts-jest": "^29.1.1"
+  }
+}
