@@ -1,1 +1,3 @@
 # TypeScriptで作成したNode.jsモジュールを参照して利用するサンプル
+
+node_modulesを参照する本体実装側
