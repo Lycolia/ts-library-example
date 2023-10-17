@@ -1,7 +1,7 @@
 import { foo } from '@lycolia/library-example-single';
 import { hoge } from '@lycolia/library-example-multi/libs/utils/hoge';
 import { PIYO } from '@lycolia/library-example-multi/libs/utils/piyo';
-import { fuga } from 'src/libs';
+import { fuga } from './libs';
 
 export const callFoo = (param: string) => {
   return foo(param);

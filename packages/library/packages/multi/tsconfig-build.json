@@ -1,8 +1,7 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "outDir": "libs",
-    "baseUrl": "./"
+    "outDir": "libs"
   },
   "exclude": ["src/**/*.spec.ts"],
   "include": ["src/**/*"]
