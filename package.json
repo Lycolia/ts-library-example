@@ -8,9 +8,6 @@
     "type": "",
     "url": ""
   },
-  "bin": {
-    "your_command_name_here": "./dist/index.js"
-  },
   "scripts": {
     "start": "npm run build-ts && node dist/index.js",
     "dev": "npm run build-ts && node --inspect-brk dist/index.js",
@@ -20,10 +17,6 @@
     "test": "jest --watch",
     "coverage": "jest --coverage"
   },
-  "workspaces": [
-    "packages/library",
-    "packages/main"
-  ],
   "devDependencies": {
     "@lycolia/eslint-config": "^0.9.1",
     "@swc/cli": "^0.1.62",

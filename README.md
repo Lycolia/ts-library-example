@@ -20,3 +20,8 @@
     - launches test runner by watch mode
   - `npm run coverage`
     - get coverage report
+
+## memo
+
+rootの`package.json`に`workspaces`を設定すると`package/library`配下の`workspaces`が機能しなくなるので外している。（`No workspaces found`と出る）
+恐らくネストはできない
