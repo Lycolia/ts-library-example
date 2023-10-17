@@ -3,6 +3,8 @@ import { foo } from '.';
 // テスト
 describe('foo', () => {
   it('return param', () => {
-    expect(foo('hoge')).toBe('hoge');
+    const actual = foo('hoge');
+
+    expect(actual).toBe('hoge');
   });
 });
