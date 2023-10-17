@@ -4,5 +4,5 @@
 
 ## memo
 
-rootの`package.json`に`workspaces`を設定すると`package/library`配下の`workspaces`が機能しなくなるので外している。（`No workspaces found`と出る）
+rootの`package.json`に`workspaces`を設定すると`package/library`配下の`workspaces`が機能しなくなるので外している。（`No workspaces found`と出る）  
 [npmのバグでネストできない](https://github.com/npm/cli/issues/4774)
