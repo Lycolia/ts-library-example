@@ -1,25 +1,6 @@
 # TypeScriptでNode.jsライブラリを作成し、それを利用するサンプル
 
-## Required
-
-- Node.js 20+
-
-## How to using
-
-- Lunch commands
-  - `npm start`
-    - run cli
-  - `npm run dev`
-    - run force debug cli
-  - `npm run type-check`
-    - run type-check
-  - `npm run build`
-    - run swc
-      - this only development, not production
-  - `npm run test`
-    - launches test runner by watch mode
-  - `npm run coverage`
-    - get coverage report
+[内容の説明はこちら](https://blog.lycolia.info/typescript%e3%81%a7node-js%e3%81%ae%e3%83%ad%e3%83%bc%e3%82%ab%e3%83%ab%e3%83%a9%e3%82%a4%e3%83%96%e3%83%a9%e3%83%aa%e3%82%92%e4%bd%9c%e3%82%8b/)
 
 ## memo
 
