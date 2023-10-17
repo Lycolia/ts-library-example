@@ -4,12 +4,8 @@
   "description": "single export endpoint library example",
   "author": "Lycolia",
   "license": "MIT",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "default": "./dist/index.js"
-    }
-  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "eslint . && npm run headless-test && npm run build-ts",
     "build-ts": "rm -Rf dist/ && tsc --project tsconfig-build.json",
