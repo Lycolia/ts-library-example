@@ -12,6 +12,8 @@
     "coverage": "jest --coverage",
     "headless-test": "jest --colors"
   },
+  "main": "libs/core/index.js",
+  "types": "libs/core/index.d.ts",
   "dependencies": {
     "@lycolia/library-example-single": "file:../single"
   }
