@@ -1,12 +1,9 @@
 {
   "name": "@lycolia/library-example-multi",
   "version": "0.1.0",
-  "description": "library example",
+  "description": "multiple export endpoint library example",
   "author": "Lycolia",
   "license": "MIT",
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "build": "eslint . && npm run headless-test && npm run build-ts",
     "build-ts": "rm -Rf libs/ && tsc --project tsconfig-build.json",

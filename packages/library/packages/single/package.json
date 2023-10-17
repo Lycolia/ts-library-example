@@ -1,7 +1,7 @@
 {
   "name": "@lycolia/library-example-single",
   "version": "0.1.0",
-  "description": "library example",
+  "description": "single export endpoint library example",
   "author": "Lycolia",
   "license": "MIT",
   "exports": {

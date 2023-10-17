@@ -1,7 +1,7 @@
 {
   "name": "@lycllia/library-example",
   "version": "0.1.0",
-  "description": "library example",
+  "description": "typescript library example",
   "author": "Lycolia",
   "license": "MIT",
   "scripts": {

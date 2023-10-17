@@ -1,6 +1,4 @@
-# ts-library-example
-
-- no description
+# TypeScriptでNode.jsライブラリを作成し、それを利用するサンプル
 
 ## Required
 
@@ -21,4 +19,4 @@
   - `npm run test`
     - launches test runner by watch mode
   - `npm run coverage`
-    - ~~get coverage report~~
+    - get coverage report
