@@ -7,14 +7,7 @@ module.exports = {
   moduleFileExtensions: ['ts', 'js'],
   collectCoverageFrom: ['src/**/*.{ts,js}', '!**/types/**'],
   testPathIgnorePatterns: ['(node_modules|dist)[/\\\\]'],
-  transform: {
-    '^.+\\.ts?$': [
-      'ts-jest',
-      {
-        tsconfig: 'tsconfig.json'
-      }
-    ]
-  },
+  preset: 'ts-jest',
   watchPlugins: [
     'jest-watch-typeahead/filename',
     'jest-watch-typeahead/testname'
